@@ -2,13 +2,11 @@
  * Style tweaks
  * --------------------------------------------------
  */
-html,
-body {
+html,body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
-}
-body {
-  padding-top: 70px;
-}
+  background-image:url('../img/squared_metal.png') ; 
+  padding-top: 70px;  
+};
 footer {
   padding: 30px 0;
 }
@@ -22,7 +20,8 @@ footer {
     padding:2px;
 }
 .project-title{
-    font-size:1.5em;
+    font-size:1.7em;
+    font-family: 'Chunkfive';
     font-weight:bold;
     color:rgb(17, 138, 120);
 }
@@ -30,6 +29,7 @@ footer {
 	font-weight:bold;
 }
 .project{
+    font-family: 'Chunkfive';
     border-bottom-width: 1px;
     border-bottom-style: dashed;
     border-bottom-color: #999999;
@@ -46,6 +46,7 @@ footer {
 .resume_content_lv1{
 	margin-left:-13px
 	}
+
     /*
  * Off Canvas
  * --------------------------------------------------
