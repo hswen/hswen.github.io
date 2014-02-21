@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <!-- saved from url=(0043)http://getbootstrap.com/examples/offcanvas/ -->
 <html lang="en">
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,49 +18,63 @@
     <!-- Custom styles for this template -->
     <link href="css/offcanvas.css" rel="stylesheet">
 
-  </head>
-  <body style="">
-    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Hsiao-Wen Wu</a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="resume.html">Resume</a></li>
-            <li><a href="projects.html">Preojects</a></li>
-        </ul>
-        </div><!-- /.nav-collapse -->
-      </div><!-- /.container -->
-    </div><!-- /.navbar -->
-
-    <div class="container">
-
-      <div class="row row-offcanvas row-offcanvas-right">
-   
-          
-        <div class="col-xs-12 col-sm-9">
-          <p class="pull-right visible-xs"></p>
-          <a class="download" href="img/resume.pdf">Download PDF</a>
-          <img src="img/Hsiao-Wen.CV%20(v2014_01).png" height="1200" width="1100">
-  
-        </div><!--/span-->
-
+</head>
+<body style="">
+  <div id="id_wrapper">
+    <div id="id_header">
+        <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Hsiao-Wen Wu</a>
+            </div>
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Preojects</a></li>
+            </ul>
+            </div><!-- /.nav-collapse -->
+          </div><!-- /.container -->
+        </div><!-- /.navbar -->
+    </div>
+    <div id="id_content">  
+        <div class="container">
+          <div class="row row-offcanvas row-offcanvas-right">  
+            <div class="col-lg-8 col-lg-offset-2">          
+              <a class="download" href="img/resume.pdf">
+                <button type="button" class="btn btn-default btn-sm">
+                  <span class="glyphicon glyphicon-download"></span> PDF Format
+                </button>
+              </a>      
+              <h3 class="resume_title_lv1"> Education </h3>
+              <h4 class="resume_title_lv2"> Indiana University, Indiana</h4>
+              <ul class="resume_content_lv1">
+                  <li> Master of Information Science <span class="pull-right" style="margin-right:20%">2015-expected</span></li>
+                  <li> Certificate in Human-Computer Interaction <span class="pull-right" style="margin-right:20%">2013</span></li>
+              </ul>
+              <h4 class="resume_title_lv2"> National Cheng Kung University, Taiwan </h3>
+              <ul class="resume_content_lv1">          
+                  <li> Master of Science in Geomatics <span class="pull-right" style="margin-right:20%">2010</span></li>
+                  <span class="resume_content"> Thesis: “Development of a Regional Tropospheric Correction Model over Taiwan” </span>
+                  <li> Bachelor of Science in Geomatics </li> 
+              </ul>
+                
+            </div><!--/span-->
+         </div><!--/row-->
+        </div><!--/.container-->
+    </div><!-- /id_content -->
  
-      </div><!--/row-->
-
-      <footer>
-        <p>© Hsiao-Wen Wu 2014</p>
-      </footer>
-    </div><!--/.container-->
-
-
+    <footer id="id_footer">
+      <hr>
+      <div>© Hsiao-Wen Wu 2014 | Background pattern provided by 
+        <a href="http://subtlepatterns.com/squared-metal/">Subtle Patterns</a> 
+      </div>
+    </footer> <!-- /id_footer -->  
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -68,5 +83,5 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/offcanvas.js"></script>
   
-
+  </div> <!-- /id_wrapper -->
 </body></html>
