@@ -4,15 +4,38 @@
  */
 html,body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
-  background-image:url('../img/squared_metal.png') ; 
-  padding-top: 45px;  
+  background-image:url('../img/squared_metal.png') ; /*adapt from http://subtlepatterns.com*/
+  padding-top: 45px;
+  height: 100%;
 };
-footer {
-  padding: 30px 0;
+
+#id_wrapper {
+    min-height: 100%;
+    position: relative;
 }
+
+#id_header {
+    height: 3px;
+    box-sizing: border-box;
+}
+
+#id_content {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+#id_footer {
+    height: 40px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+}
+
 .download{
     position:absolute;
-    right:-20%;
+    right:-10%;
 }
 .project-type{
     font-size:1.7em;
