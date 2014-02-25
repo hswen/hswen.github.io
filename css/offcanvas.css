@@ -47,6 +47,7 @@ html,body {
     font-family: 'Chunkfive';
     font-weight:bold;
     color:rgb(17, 138, 120);
+    text-shadow:1px 1px rgb(255, 255, 255);
 }
 .project-method{
 	font-weight:bold;
@@ -61,13 +62,19 @@ html,body {
     font-size:1.2em;
 }
 .resume_title_lv1{
-	margin-left:-59px
+	margin-left:-59px;
+    font-size:1.7em;
+    font-family: 'Chunkfive';
+    font-weight:bold;
+    color:rgb(17, 138, 120);
+    text-shadow:1px 1px rgb(180, 180, 150);
 	}
 .resume_title_lv2{
-	margin-left:-36px
+	margin-left:-36px;
+    font-size:1.2em;
 	}
 .resume_content_lv1{
-	margin-left:-13px
+	margin-left:-13px;
 	}
 
     /*
