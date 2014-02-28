@@ -15,17 +15,17 @@ html,body {
 }
 
 #id_header {
-    height: 3px;
+    height: .1em;
     box-sizing: border-box;
 }
 
 #id_content {
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 1.5em;
 }
 
 #id_footer {
-    height: 40px;
+    height: 1.5em;
     box-sizing: border-box;
     position: absolute;
     bottom: 0;
@@ -62,21 +62,42 @@ html,body {
     font-size:1.2em;
 }
 .resume_title_lv1{
-	margin-left:-59px;
     font-size:1.7em;
     font-family: 'Chunkfive';
     font-weight:bold;
     color:rgb(17, 138, 120);
     text-shadow:1px 1px rgb(180, 180, 150);
+    line-height:0.8em; 
 	}
 .resume_title_lv2{
-	margin-left:-36px;
-    font-size:1.2em;
+    font-size:1.3em;
+    font-family: 'Chunkfive';
+    font-weight:bold;
+    line-height:0.8em; 
 	}
 .resume_content_lv1{
-	margin-left:-13px;
+    font-family: 'Chunkfive';
+    font-size:1.2em;
+    line-height:1.2em;
 	}
+.thumbnail_lv1{
+    background-color:rgba(158,158,158,0.35);
+    width:280px; 
+    height:380px;
+}
 
+.thumbnail_heading{
+    color:rgb(17, 138, 120);
+    text-shadow:1px 1px rgb(255, 255, 255);
+    font-weight:bold;
+    text-align:center;
+    line-height:1.5em; 
+}
+
+.index_heading{
+    color:rgb(158,158,158);
+
+}
     /*
  * Off Canvas
  * --------------------------------------------------

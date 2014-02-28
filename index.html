@@ -47,28 +47,40 @@
           <div class="row row-offcanvas row-offcanvas-right">      
             <div class="col-xs-12 col-sm-9">
                 <div class="jumbotron">
-                <h2>About Hsiao-Wen </h2>
-                <p>I am currently a Master’s student at the Information Science program at Indiana University. </p>
+                <h2 class="index_heading">About Hsiao-Wen </h2>
+                <p>I care what users need. I desire to develop products that bring better user experience and to eliminate users' struggles when using technological devices.</p>    
               </div>
+              <h3> Project Highlights</h3>
               <div class="row">
                 <div class="col-6 col-sm-12 col-md-4 col-lg-4">
-                  <h3>MusicNow</h3>
-                  <img src="img/MusicNow.png" alt="Music Now" height="125" width="150">
-                  <p>A mobile application that connects performers to local businesses and fans. </p>
-                  <p><a class="btn btn-default" href="projects.html" role="button">View details »</a></p>
+                  <div class="thumbnail thumbnail_lv1"> 
+                    <h3 class="thumbnail_heading">MusicNow</h3>
+                    <img src="img/MusicNow.png" alt="Music Now" height="125" width="150">
+                    <div class="caption">        
+                      <p>A mobile application that connects performers to local businesses and fans. </p>
+                      <p><a class="btn btn-default" href="projects.html#MusicNow" role="button">View details »</a></p>
+                    </div>      
+                  </div>       
                 </div><!--/span-->
                 <div class="col-6 col-sm-12 col-md-4 col-lg-4">
-                  <h3>BalanceIt</h3>
-                  <img src="img/BalanceIt.png" alt="Blance It" height="106" width="191">    
-                  <p>The BalanceIt is a project to design a game for 
-                      <a href="https://www.sifteo.com/cubes" target="_blank">Sifteo cubes.</a>
-                  <p><a class="btn btn-default" href="projects.html#BalanceIt" role="button">View details »</a></p>
+                  <div class="thumbnail thumbnail_lv1"> 
+                    <h3 class="thumbnail_heading">RoamWithMe</h3>
+                    <img src="img/roamwithme.png" alt="roam with me" height="125" width="150">    
+                    <div class="caption">
+                      <p>RoamWithMe is designed for travellers who love to share their experiences and information exchange.</p>
+                      <p><a class="btn btn-default" href="projects.html#RoamWithMe" role="button">View details »</a></p>
+                    </div> 
+                  </div>   
                 </div><!--/span-->
                 <div class="col-6 col-sm-12 col-md-4 col-lg-4">
-                  <h3>SavvyShop</h3>
-                  <img src="img/SavvyShop.jpg" alt="Savvy Shop" height="100" width="280">
-                  <p>The SavvyShop project aims to develop an application that brings users better shopping experiences. </p>
-                  <p><a class="btn btn-default" href="projects.html#SavvyShop" role="button">View details »</a></p>
+                  <div class="thumbnail thumbnail_lv1">    
+                    <h3 class="thumbnail_heading">SavvyShop</h3>
+                    <img src="img/SavvyShop.jpg" alt="Savvy Shop" height="125" width="150">
+                    <div class="caption">
+                      <p>The SavvyShop project aims to develop an application that brings users better shopping experiences. </p>
+                      <p><a class="btn btn-default" href="projects.html#SavvyShop" role="button">View details »</a></p>
+                    </div>    
+                  </div>      
                 </div><!--/span-->
               </div><!--/row-->
             </div><!--/span-->
@@ -77,6 +89,7 @@
           </div><!--/row-->
     
         </div><!--/.container-->
+        
     </div><!-- /id_content -->
     <footer id="id_footer">
       <hr>
@@ -92,6 +105,26 @@
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/offcanvas.js"></script>
-  
+    <script type="text/javascript">
+       /*$('#SavvyShop').click(function() {
+        $('#mytabs a[href="#SavvyShop"]').tab('show');
+        });
+        
+        $('#MusicNow').click(function() {
+        $('#mytabs a[href="#MusicNow"]').tab('show');
+        });
+        */
+        // Javascript to enable link to tab 
+
+        var url = document.location.toString(); 
+if (url.match(‘#’)) { 
+    $(‘#myTabs a[href=#'+url.split('#')[1]+’]').tab(‘show’) ; 
+} 
+// Change hash for page-reload 
+$(‘#myTabs a’).on(‘shown’, function (e) { 
+    window.location.hash = e.target.hash; 
+});
+
+    </script>    
   </div> <!-- /id_wrapper -->
 </body></html>
