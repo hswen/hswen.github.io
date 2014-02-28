@@ -82,8 +82,8 @@ html,body {
 	}
 .thumbnail_lv1{
     background-color:rgba(158,158,158,0.35);
-    width:280px; 
-    height:380px;
+    width:265px; 
+    height:390px;
 }
 
 .thumbnail_heading{
@@ -93,7 +93,9 @@ html,body {
     text-align:center;
     line-height:1.5em; 
 }
-
+.thumbnail_caption{
+    text-align:center;
+}
 .index_heading{
     color:rgb(158,158,158);
 
