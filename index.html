@@ -105,25 +105,7 @@
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/offcanvas.js"></script>
-    <script type="text/javascript">
-       /*$('#SavvyShop').click(function() {
-        $('#mytabs a[href="#SavvyShop"]').tab('show');
-        });
-        
-        $('#MusicNow').click(function() {
-        $('#mytabs a[href="#MusicNow"]').tab('show');
-        });
-        */
-        // Javascript to enable link to tab 
-
-        var url = document.location.toString(); 
-if (url.match(‘#’)) { 
-    $(‘#myTabs a[href=#'+url.split('#')[1]+’]').tab(‘show’) ; 
-} 
-// Change hash for page-reload 
-$(‘#myTabs a’).on(‘shown’, function (e) { 
-    window.location.hash = e.target.hash; 
-});
+    <script src="js/tablink.js"></script>
 
     </script>    
   </div> <!-- /id_wrapper -->
