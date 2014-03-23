@@ -52,6 +52,9 @@ html,body {
 .project-method{
 	font-weight:bold;
 }
+.project-deliverable{
+    font-size:1.2em;
+}
 .project{
     font-family: 'Chunkfive';
     border-bottom-width: 1px;
@@ -61,6 +64,7 @@ html,body {
 .description{
     font-size:1.2em;
 }
+
 .resume_title_lv1{
     font-size:1.7em;
     font-family: 'Chunkfive';
