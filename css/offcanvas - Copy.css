@@ -1,0 +1,143 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  background-image:url('../img/squared_metal.png') ; /*adapt from http://subtlepatterns.com*/
+  padding-top: 45px;
+  height: 100%;
+};
+
+#id_wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+#id_header {
+    height: .1em;
+    box-sizing: border-box;
+}
+
+#id_content {
+    padding-top: 10px;
+    padding-bottom: 1.5em;
+}
+
+#id_footer {
+    height: 1.5em;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+}
+
+.download{
+    position:absolute;
+    right:-10%;
+}
+.project-type{
+    font-size:1.7em;
+    background:#eaeaea;
+    padding:2px;
+}
+.project-title{
+    font-size:1.7em;
+    font-family: 'Chunkfive';
+    font-weight:bold;
+    color:rgb(17, 138, 120);
+    text-shadow:1px 1px rgb(255, 255, 255);
+}
+.project-method{
+	font-weight:bold;
+}
+.project-deliverable{
+    font-size:1.2em;
+}
+.project{
+    font-family: 'Chunkfive';
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #999999;
+}
+.description{
+    font-size:1.2em;
+}
+
+.resume_title_lv1{
+    font-size:1.7em;
+    font-family: 'Chunkfive';
+    font-weight:bold;
+    color:rgb(17, 138, 120);
+    text-shadow:1px 1px rgb(180, 180, 150);
+    line-height:0.8em; 
+	}
+.resume_title_lv2{
+    font-size:1.3em;
+    font-family: 'Chunkfive';
+    font-weight:bold;
+    line-height:0.8em; 
+	}
+.resume_content_lv1{
+    font-family: 'Chunkfive';
+    font-size:1.2em;
+    line-height:1.2em;
+	}
+.thumbnail_lv1{
+    background-color:rgba(158,158,158,0.35);
+    width:265px; 
+    height:390px;
+}
+
+.thumbnail_heading{
+    color:rgb(17, 138, 120);
+    text-shadow:1px 1px rgb(255, 255, 255);
+    font-weight:bold;
+    text-align:center;
+    line-height:1.5em; 
+}
+.thumbnail_caption{
+    text-align:center;
+}
+.index_heading{
+    color:rgb(158,158,158);
+
+}
+    /*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns 
+
+  }
+}
