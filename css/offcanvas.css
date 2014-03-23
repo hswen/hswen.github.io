@@ -11,7 +11,7 @@ html,body {
 
 #id_wrapper {
     min-height: 100%;
-    position: relative;
+    position: absolute;
 }
 
 #id_header {
