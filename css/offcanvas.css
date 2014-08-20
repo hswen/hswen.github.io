@@ -48,6 +48,7 @@ html,body {
 }
 .project-title{
     font-size:1.7em;
+	line-height:1.5em;
     font-family: 'Chunkfive';
     font-weight:bold;
     color:#7F3575;
@@ -90,6 +91,8 @@ html,body {
     border-bottom-width: 1px;
     border-bottom-style: dashed;
     border-bottom-color: #999999;
+	padding-bottom:20px;
+	padding-top:20px;
 }
 .description{
     font-size:1.2em;
@@ -112,7 +115,7 @@ html,body {
 .resume_content_lv1{
     font-family: 'Chunkfive';
     font-size:1.2em;
-    line-height:1.2em;
+    line-height:1.4em;
 	}
 .thumbnail_lv1{
     background-color:rgba(158,158,158,0.35);
