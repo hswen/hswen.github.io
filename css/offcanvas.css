@@ -8,8 +8,9 @@ html,body {
   background-image:url('../img/squared_metal.png') ; /*adapt from http://subtlepatterns.com*/
   padding-top: 28px;
   height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  
   };
-
 
 #id_wrapper {
     min-height: 100%;
@@ -51,12 +52,13 @@ html,body {
 	line-height:1.5em;
     font-family: 'Chunkfive';
     font-weight:bold;
-    color:#7F3575;
+    color:#903C84;
     text-shadow:1px 1px rgb(180, 180, 150);
 }
 .project-method{
 	font-weight:bold;
-    color:#903C84;
+	font-size:1.2em;
+    color:#6B3030;
 }
 .project-deliverableTitle{
     font-size:1.2em;
@@ -64,13 +66,13 @@ html,body {
     margin-top:0.5em;
     margin-bottom:0em;
     padding:0;
-    color:#903C84;
+    color:#6B3030;
 }
 .project-deliverable{
     font-size:1.2em;
     margin:0;
     padding-top:0em;
-     padding-left:1.2em;
+    padding-left:1.2em;
 }
 
 .project-collaborateTitle{
@@ -87,7 +89,7 @@ html,body {
     padding-left:1.2em;
 }
 .project{
-    font-family: 'Chunkfive';
+    font-family: 'Source Sans Pro', sans-serif;
     border-bottom-width: 1px;
     border-bottom-style: dashed;
     border-bottom-color: #999999;
@@ -96,8 +98,8 @@ html,body {
 }
 .description{
     font-size:1.2em;
-}
 
+}
 .resume_title_lv1{
     font-size:1.7em;
     font-family: 'Chunkfive';
@@ -110,10 +112,11 @@ html,body {
     font-size:1.3em;
     font-family: 'Chunkfive';
     font-weight:bold;
-    line-height:0.8em; 
+    line-height:0.8em;
+	color:#7F5F5F;	
 	}
 .resume_content_lv1{
-    font-family: 'Chunkfive';
+    font-family: 'Source Sans Pro', sans-serif;
     font-size:1.2em;
     line-height:1.4em;
 	}
@@ -124,21 +127,26 @@ html,body {
 }
 
 .thumbnail_heading{
-    color:#7F3575;
+    color:#7F5F5F;
     text-shadow:1px 1px rgb(180, 180, 150);
     font-weight:bold;
     text-align:center;
-    line-height:1.5em; 
+    line-height:1.1em; 
+	font-family: 'Chunkfive';
 }
 .thumbnail_caption{
     text-align:center;
 }
 .index_heading{
+	font-family: 'Chunkfive';
+	text-shadow:1px 1px rgb(240, 234, 234);
     color:#7F3575;
 	line-height:1.1em; 
-	font-size:1.3em;
+	font-size:1.1em;
+	font-weight:bold;
 }
 .feature_Title{
+	font-family: 'Chunkfive';
 	text-shadow:1px 1px rgb(240, 234, 234);
 	color:#903C84;
 	text-indent : 20px ;
@@ -148,6 +156,8 @@ html,body {
 
 .about_Me{
 	margin-left : 2em; 
+	font-size:1.0em;
+	color:#7F5F5F;
 }
     /*
  * Off Canvas
