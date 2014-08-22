@@ -12,10 +12,21 @@ html,body {
   
   };
 
+ul
+{
+    list-style-type: square;
+}
+  
+ul > li
+{
+    color:#111;
+}
+
+  
 #id_wrapper {
     min-height: 100%;
     position: absolute;
-	padding-bottom:50px;
+	padding-bottom:10px;
 }
 
 #id_header {
@@ -24,7 +35,7 @@ html,body {
 }
 
 #id_content {
-    background-color:rgba(151, 166, 178,0.3);
+   /* background-color:rgba(151, 166, 178,0.3);*/
 	padding-top: 10px;
     padding-bottom: 1.5em;
 }
