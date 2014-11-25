@@ -132,6 +132,14 @@ ul > li
     line-height:1.4em;
 	color:#333;
 	}
+
+.resume_jobSummary{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:1.2em;
+    line-height:1.0em;
+	color:rgb(111,111,111);
+	}
+
 .thumbnail_lv1{
     background-color:rgba(158,158,158,0.35);
     width:265px; 
